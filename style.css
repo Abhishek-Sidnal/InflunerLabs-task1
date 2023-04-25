@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: radial-gradient(circle 992px at 7.8% 77.5%, rgba(246, 255, 96, 1) 0%, rgba(40, 217, 252, 1) 90%);
+}
+
+.resume {
+    margin: 30px auto;
+    height: 70%;
+    width: 50%;
+    align-items: center;
+    box-shadow: 0 0 10px black;
+}
+
+
+
+.main {
+    display: flex;
+    background-color: rgba(96, 122, 113, 0.895);
+}
+
+.main img {
+    height: 120px;
+    margin: 20px;
+    /* width: 30%; */
+    border-radius: 20px;
+    border: 3px solid rgba(210, 176, 243, 0.836);
+}
+
+.logo {
+    display: inline;
+    align-items: center;
+    margin: 10px;
+    margin-top: 20px;
+    padding: auto;
+}
+
+.name {
+
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    text-align: center;
+    font-size: 40px;
+}
+
+#names {
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.sec {
+    display: flex;
+}
+
+.rm {
+    width: 35%;
+    height: 110vh;
+    background-color: rgb(206, 232, 223);
+}
+
+.contact,
+.lang {
+
+    padding: 30px 20px;
+    height: 110px;
+}
+
+.tskils {
+    margin-top: 20px;
+    padding: 30px 20px;
+    height: 150px;
+}
+
+.hobbies {
+    margin-top: 20px;
+    padding: 30px 20px;
+    height: 70px;
+}
+
+.lang {
+    margin-top: 20px;
+    padding: 30px 20px;
+    height: 90px;
+}
+
+
+.contact ul li {
+    /* margin-left: 20px; */
+    line-height: 30px;
+    list-style: none;
+}
+
+.tskils ul li,
+.hobbies ul li,
+.lang ul li {
+    /* list-style: none; */
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.lm {
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+    width: 70%;
+    background-color: white;
+    border-left: 1px solid black;
+}
+
+.pgoals {
+    width: 450px;
+    padding: 30px 20px;
+    height: 80px;
+}
+
+.intern {
+    width: 450px;
+    padding: 30px 20px;
+    height: 80px;
+}
+
+.pgoals p {
+    margin-left: 10px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.edu {
+    margin-top: 20px;
+    padding: 30px 20px;
+    height: 180px;
+}
+
+.proj {
+    margin-top: 20px;
+    padding: 30px 20px;
+    height: 180px;
+}
+
+.proj h3 {
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.proj ul li,
+.intern ul li {
+    margin-left: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+.edu ul li {
+    /* list-style: none; */
+    margin-left: 20px;
+    padding: 5px 10px;
+}
+
+.proj ul {
+    margin-left: 30px;
+}
+
+.intern ul {
+    margin-left: 30px;
+
+}
+
+h2 {
+    /* text-decoration: underline; */
+}
+
+hr {
+    background-color: black;
+    height: 2px;
+    border-color: black;
+}
